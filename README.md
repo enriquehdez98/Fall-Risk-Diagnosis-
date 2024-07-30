@@ -1,2 +1,5 @@
-# Fall-Risk-Diagnosis-
-Optimizing Fall Risk Diagnosis in Older Adults Using a Bayesian Classifier and Simulated Annealing
+# Optimizing Fall Risk Diagnosis in Older Adults Using a Bayesian Classifier and Simulated Annealing
+
+Abstract: The aim of this study was to improve the diagnostic ability of fall risk classifiers using a Bayesian approach and the Simulated Annealing (SA) algorithm. A total of 47 features from 181 records (40 Center of Pressure (CoP) indices and 7 patient descriptive variables) were analyzed. The wrapper method of feature selection using the SA algorithm was applied to optimize the cost function based on the difference of the mean minus the standard deviation of the Area Under the Curve (AUC) of the fall risk classifiers across multiple dimensions. A stratified 60-20-20% hold-out method was used for train, test, and validation sets respectively. Results showed that although the highest performance was observed with 31 features (0.815 ± 0.110), lower variability and higher explainability was achieved with only 15 features (0.780 ± 0.055). These findings suggest that the SA algorithm is a valuable tool for feature selection for acceptable fall risk diagnosis. This method offers an alternative or complementary resource in situations where clinical tools are difficult to apply, thus minimizing the potential stress and anxiety of the patient being assessed by traditional clinical tools.
+
+Note: The full content of the repository will be published after acceptance in Bioengineering (ISSN 2306-5354).
